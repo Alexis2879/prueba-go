@@ -1,5 +1,6 @@
 import logo from "./img/logo.png";
 import { Link, Outlet } from "react-router-dom";
+import "./main.css";
 const Main = () => {
   return (
  <div>  
@@ -23,5 +24,7 @@ const Main = () => {
     </nav>
     <Outlet />
 </div>
-  );
+ );
 };
+
+export default Main;
