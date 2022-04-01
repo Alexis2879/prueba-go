@@ -1,12 +1,13 @@
-import logo from "./img/logo.png";
+import React from 'react';
+//import logo from "./img/logo.png";//
 import { Link, Outlet } from "react-router-dom";
-import "./main.css";
-const Main = () => {
+import "./Header.css";
+const Header = () => {
   return (
  <div>  
     <nav>
       <div>
-        <img src={logo} alt="" />
+        <img src="" alt="" />
       </div>
       <div>
         <ul>
@@ -27,4 +28,4 @@ const Main = () => {
  );
 };
 
-export default Main;
+export default Header;
