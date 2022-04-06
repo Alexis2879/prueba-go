@@ -1,14 +1,17 @@
-import React from 'react';
-import Header from '../src/layouts/Footer';
-import './App.css';
 
 
-function App() {
+
+
+
+const App = () => {
+ 
   return (
-    <div className="App">
-     Hola Mundo
+    <div>
+      
+      <h1>Hola mundo</h1>
+     
     </div>
   );
-}
+};
 
 export default App;
