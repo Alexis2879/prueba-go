@@ -1,0 +1,85 @@
+.footer { 
+    display: flex;
+    background-image: url(./img/manco1.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.logo { 
+    height: 70px;
+    margin-top: 100px; 
+}
+
+.titulo { 
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+}
+
+.titugo { 
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.textfo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.icomedia {
+    height: 30px;
+}
+  
+.decora {
+    text-decoration: none; 
+}
+
+.padre {
+    display: flex;
+    margin-top: 100vh;
+}   
+  
+.footer__col1 {
+    flex-direction: column;
+    text-align: left;
+     height: 90%;
+    min-width: 70%;
+}
+  
+.footer__col2 {
+    flex-direction: column;
+    text-align: left;
+    height: 80%;
+    min-width: 60%;
+
+}
+
+.footer__col3{
+    flex-direction: column;
+    text-align: left;
+    height: 80%;
+    min-width: 60%;
+}
+
+.footer__col4{
+    flex-direction: column;
+    text-align: left;
+    height: 80%;
+    min-width: 60%; 
+}
+
+
+
+hr {
+    align-content: left;
+    margin-top: 1px;
+    width: auto;
+}
+
+.color-icon {
+    color: #f0f0f0;
+    margin-right: 8px;
+}
